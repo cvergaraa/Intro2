@@ -1,10 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-st.title( "Te amo mi nalgona favorita")
+st.title( "Mi primera pagina")
 
-st.header("dame un beso")
-st.write("original en que aspecto?")
+st.header("Huele feo")
+st.write("Oliver y leopoldo gatos gordos")
 image = Image.open('gato.jpg')
 
 st.image(image, caption ='interfac multimodales')
